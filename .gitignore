@@ -1,0 +1,38 @@
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts and output directories
+/bin/
+/obj/
+/out/
+/dist/
+
+# Ignore editor and IDE files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.pidb
+
+# Ignore sensitive or private information
+secrets.txt
+config.ini
+credentials.json
+
+# Ignore environment-specific files
+**/.env*
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore node_modules in any nested folder
+**/node_modules/
+
